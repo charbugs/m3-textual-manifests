@@ -6,6 +6,8 @@ var cors = require('cors')
 
 const app = express()
 
+console.log(process.env)
+
 // on heroku use process.env.PORT
 let port = process.env.PORT;
 if (port == null || port == "") {
