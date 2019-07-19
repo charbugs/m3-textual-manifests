@@ -10,8 +10,8 @@ const hostname = process.env.APP_HOME || 'http://localhost:8080'
 const assetsPath = path.resolve(__dirname, '../assets/')
 
 
-const resolveAssetPath = (relavtive) => 
-  Promise.resolve(path.resolve(assetsPath, relavtive))
+const resolveAssetPath = (relative) => 
+  Promise.resolve(path.resolve(assetsPath, relative))
 
 const loadFile = (path) => 
   new Promise(resolve => fs.readFile(path, 'utf8', (err, data) => resolve(data)))
@@ -54,7 +54,6 @@ app.get('/iiif/text-1/list/page-:page', (req, res) => {
 app.get('/iiif/text-1/text/page-:page', (req, res) => {
   sendHTML(`iiif/text-1/text/page-${req.params.page}.html`, res)
 })
-
 
 
 app.listen(port, () => console.log(`server listens on port ${port}!`))
