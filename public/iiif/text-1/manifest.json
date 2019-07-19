@@ -1,0 +1,57 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "http://localhost:8081/iiif/text-1/manifest.json",
+  "metadata": [
+    {"label": "Author", "value": "Anne Author"}
+  ],
+  "attribution": "Handschriftenportal",
+  "label": "Text 1",
+  "description": "An example for a manifest with text content on canvas",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8081/iiif/text-1/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "height": 1000,
+          "width": 1000,
+          "otherContent": [
+            {
+              "@id": "http://localhost:8081/iiif/text-1/list/page-1.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8081/iiif/text-1/canvas/page-2.json",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "height": 1000,
+          "width": 1000,
+          "otherContent": [
+            {
+              "@id": "http://localhost:8081/iiif/text-1/list/page-2.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8081/iiif/text-1/canvas/page-3.json",
+          "@type": "sc:Canvas",
+          "label": "Page 3",
+          "height": 1000,
+          "width": 1000,
+          "otherContent": [
+            {
+              "@id": "http://localhost:8081/iiif/text-1/list/page-3.json",
+              "@type": "sc:AnnotationList"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

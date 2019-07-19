@@ -1,0 +1,19 @@
+
+{
+  "@context": "http://www.shared-canvas.org/ns/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "http://localhost:8081/iiif/text-1/list/page-1.json",
+  "resources": [
+    {
+      "@id": "http://localhost:8081/iiif/text-1/annotation/page-1.json",
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "on": "http://localhost:8081/iiif/text-1/canvas/page-1.json",
+      "resource": {
+        "@id": "http://localhost:8081/iiif/text-1/text/page-1.html",
+        "@type": "dctypes:Text",
+        "format": "text/plain"
+      }
+    }
+  ]
+}
