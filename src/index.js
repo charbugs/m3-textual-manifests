@@ -20,14 +20,10 @@ class Mirador extends React.Component {
     const store = createStore()
     store.dispatch(actions.setConfig(settings))
     
-    store.dispatch(actions.addWindow({
-      id: "window-1",
-      manifestId: 'http://localhost:8081/iiif/text-1/manifest.json',
-    }))
 
     store.dispatch(actions.addWindow({
       id: "window-2",
-      manifestId: 'https://media.nga.gov/public/manifests/nga_highlights.json',
+      manifestId: 'https://iiif.lib.harvard.edu/manifests/ids:16843914',
     }))
 
     this.setState({ store: store })

@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'public/mirador'),
+    path: path.resolve(__dirname, 'assets/mirador'),
   },
   devServer: {
     contentBase: './dist'

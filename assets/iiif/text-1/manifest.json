@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
-  "@id": "http://localhost:8081/iiif/text-1/manifest.json",
+  "@id": "<hostname>/iiif/text-1/manifest",
   "metadata": [
     {"label": "Author", "value": "Anne Author"}
   ],
@@ -13,40 +13,40 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8081/iiif/text-1/canvas/page-1.json",
+          "@id": "<hostname>/iiif/text-1/canvas/page-1",
           "@type": "sc:Canvas",
           "label": "Page 1",
           "height": 1000,
           "width": 1000,
           "otherContent": [
             {
-              "@id": "http://localhost:8081/iiif/text-1/list/page-1.json",
+              "@id": "<hostname>/iiif/text-1/list/page-1",
               "@type": "sc:AnnotationList"
             }
           ]
         },
         {
-          "@id": "http://localhost:8081/iiif/text-1/canvas/page-2.json",
+          "@id": "<hostname>/iiif/text-1/canvas/page-2",
           "@type": "sc:Canvas",
           "label": "Page 2",
           "height": 1000,
           "width": 1000,
           "otherContent": [
             {
-              "@id": "http://localhost:8081/iiif/text-1/list/page-2.json",
+              "@id": "<hostname>/iiif/text-1/list/page-2",
               "@type": "sc:AnnotationList"
             }
           ]
         },
         {
-          "@id": "http://localhost:8081/iiif/text-1/canvas/page-3.json",
+          "@id": "<hostname>/iiif/text-1/canvas/page-3",
           "@type": "sc:Canvas",
           "label": "Page 3",
           "height": 1000,
           "width": 1000,
           "otherContent": [
             {
-              "@id": "http://localhost:8081/iiif/text-1/list/page-3.json",
+              "@id": "<hostname>/iiif/text-1/list/page-3",
               "@type": "sc:AnnotationList"
             }
           ]

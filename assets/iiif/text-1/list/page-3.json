@@ -1,15 +1,15 @@
 {
   "@context": "http://www.shared-canvas.org/ns/context.json",
   "@type": "sc:AnnotationList",
-  "@id": "http://localhost:8081/iiif/text-1/list/page-3.json",
+  "@id": "<hostname>/iiif/text-1/list/page-3",
   "resources": [
     {
-      "@id": "http://localhost:8081/iiif/text-1/annotation/page-3.json",
+      "@id": "<hostname>/iiif/text-1/annotation/page-3",
       "@type": "oa:Annotation",
       "motivation": "sc:painting",
-      "on": "http://localhost:8081/iiif/text-1/canvas/page-3.json",
+      "on": "<hostname>/iiif/text-1/canvas/page-3",
       "resource": {
-        "@id": "http://localhost:8081/iiif/text-1/text/page-3.html",
+        "@id": "<hostname>/iiif/text-1/text/page-3",
         "@type": "dctypes:Text",
         "format": "text/plain"
       }
