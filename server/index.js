@@ -11,11 +11,9 @@ const home = process.env.APP_HOME || 'http://localhost:8080'
 
 const app = express()
 
-console.log(process.env)
+console.log(process.env, port, home)
 
 
 
 app.use(cors(), express.static(path.join(__dirname, '../public')));
 app.listen(port, () => console.log(`server listens on port ${port}!`))
-
-app.listen()
